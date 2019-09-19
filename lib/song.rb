@@ -27,6 +27,8 @@ class Song
   # song.name = song_name
   # @@all << song
   # song 
+  
+  @@all << self.new_by_name(song_name)
   end
 
 end
