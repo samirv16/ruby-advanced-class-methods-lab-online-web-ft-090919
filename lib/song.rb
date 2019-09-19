@@ -30,9 +30,7 @@ class Song
   end
   
   def self.find_by_name(song_name)
-  @@all.find(song_name) do |song| 
-    song == song_name
-  end 
+  @@all.find(song_name) {|song| song == song_name} 
   end 
 
 end
