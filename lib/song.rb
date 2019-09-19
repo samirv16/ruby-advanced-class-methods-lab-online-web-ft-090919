@@ -28,7 +28,6 @@ class Song
   # @@all << song
   # song 
   
-  @@all << self.new_by_name(song_name)
   end
 
 end
