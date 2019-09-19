@@ -40,6 +40,7 @@ class Song
     else 
       song.new
     end
+    end
   end 
 
 end
