@@ -46,4 +46,6 @@ class Song
    @@all.sort_by(&:name) # @@all.sort_by { |song| song.name }
   end 
 
+  def self.create_from_filename
+
 end
