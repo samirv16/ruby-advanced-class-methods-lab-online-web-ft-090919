@@ -27,7 +27,8 @@ class Song
   # song.name = song_name
   # @@all << song
   # song 
-  
+  song = self.new_by_name(song_name)
+  @@all << song 
   end
 
 end
